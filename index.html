@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Fonts and stylesheets -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Font Awesome icons -->
+  <script src="https://kit.fontawesome.com/7e0efa0f0d.js" crossorigin="anonymous"></script>
+  
+  <!-- Swiper JS and CSS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+  
+  <!-- Additional Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="Assets/Brunchify-logos_transparent.png" type="image/x-icon">
+  
+  <!-- Bootstrap CSS and JS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  
+  <!-- Custom main script -->
+  <script src="main.js"></script>
+  
+  <!-- Page title -->
+  <title>Brunchify</title>
+</head>
+
+<body>
+  <!-- Preloader -->
+<div class="preloader" id="preloader">
+    <div class="loader"></div>
+</div>
+  
+<!-- main-section -->
+
+<main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+    tabindex="0">
+
+    <!-- Navbar -->
+    
+<nav id="navbar-example2" class="navbar navbar-expand-lg" data-bs-theme="light">
+      <div class="container-fluid">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" href="#"><img src="Assets/Brunchify-logos_transparent.png" class="logo" alt="logo"></a>
+        
+        <!-- Navbar Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Offcanvas Menu -->
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <!-- Offcanvas Navigation Links -->
+            <ul class="navbar-nav gap-4 justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact-us">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</nav>
+    
+  <!-- Home section -->
+<div class="Home" id="Home">
+  <!-- Background images for the section -->
+  <span><img src="Assets/svg/breakfast_2652642.svg" /></span>
+  <span><img src="Assets/svg/coffee_2366518.svg" /></span>
+  <span><img src="Assets/svg/english-breakfast_3480666.svg" /></span>
+  <span><img src="Assets/svg/cereals_1652146.svg" /></span>
+  <span><img src="Assets/svg/chocolate_3242442.svg" /></span>
+  <span><img src="Assets/svg/coffee-break_2804762.svg" /></span>
+  <span><img src="Assets/svg/food_2771460.svg" /></span>
+  <span><img src="Assets/svg/bread_883663.svg" /></span>
+  <span><img src="Assets/svg/fried-egg_7037397.svg" /></span>
+  
+  <div class="col-1">
+    <!-- Heading and paragraph content -->
+    <h2 class="heading-two">Experience <span>Brunchify</span></h2>
+    <h1 class="heading-one">Morning Blissful Bites</h1>
+    <p class="paragraph-anime">
+      Start your day with a delicious breakfast, and let the flavors
+      awaken your spirit.
+    </p>
+    <!-- Call to action button -->
+    <a href="">Order Now</a>
+  </div>
+  <div class="col-2">
+    <!-- Image column -->
+    <div class="col-2__img image-anime">
+      <img src="Assets/pancake.png" alt="Pancake Image" />
+    </div>
+  </div>
+</div>
+
+    
+    <!-- About Us section -->
+<div id="About-us" class="about-us-section">
+  <div class="about-us__headings">
+    <h2 class="heading-two">Discover Our Journey</h2>
+    <h1 class="heading-one">About Us</h1>
+  </div>
+  <div class="about-us__content container">
+    <!-- Left column with text content -->
+    <div class="about-us__text-area container">
+      <h2 class="heading-two">Welcome to Brunchify</h2>
+      <p class="paragraph-anime">
+        Brunchify was founded by Emily and James, two food enthusiasts on a mission to create a breakfast haven
+        that offered more than just the usual breakfast fare. They envisioned a place where people could savor
+        mouthwatering dishes made from the finest locally sourced ingredients.</p>
+      <a href="#" class="text-area__learn-more">Read More</a>
+    </div>
+    <!-- Right column with an image -->
+    <div class="about-us__image">
+      <figure class="image-anime">
+        <img src="Assets/plate-with-toasts-fried-egg (1).jpg" class="figure-img img-fluid" alt="...">
+      </figure>
+    </div>
+  </div>
+</div>
+
+    
+   <!-- Menu section -->
+<div id="Menu" class="menu-section">
+  <h1>Savor Specialities</h1>
+  <h2>Taste our unique menu</h2>
+  <ul class="menu-section__menus">
+    <!-- Classic Breakfast -->
+    <li>
+      <h2>Classic Breakfast</h2>
+      <div class="classic-breakfast">
+        <ul>
+          <li>Scrambled Eggs <span>$16</span></li>
+          <li>Bacon or Sausage <span>$16</span></li>
+          <li>Toast or Bagel <span>$16</span></li>
+          <li>Pancakes or Waffles <span>$16</span></li>
+          <li>Fresh Fruits <span>$16</span></li>
+          <li>Coffee, Tea, or Juice <span>$16</span></li>
+        </ul>
+        <div class="classic-breakfast__img">
+          <img src="Assets/fried-eggs-top-view.jpg" draggable="false" class="classic-breakfast" alt="">
+        </div>
+      </div>
+    </li>
+    <!-- Healthy Start -->
+    <li>
+      <h2>Healthy Start</h2>
+      <div class="healthy-start">
+        <div class="healthy-start__img">
+          <img src="Assets/avocado-open-toast.jpg" alt="">
+        </div>
+        <ul>
+          <li>Avocado Toast <span>$16</span></li>
+          <li>Greek Yogurt Parfait <span>$16</span></li>
+          <li>Chia Seed Pudding <span>$16</span></li>
+          <li>Fresh Fruit Smoothie <span>$16</span></li>
+          <li>Whole Grain Oatmeal <span>$16</span></li>
+          <li>Green Tea<span>$16</span></li>
+        </ul>
+      </div>
+    </li>
+    <!-- International Flavors -->
+    <li>
+      <h2>International Flavors</h2>
+      <div class="international-flavors">
+        <ul>
+          <li>Eggs Benedict <span>$16</span></li>
+          <li>French Croissant <span>$16</span></li>
+          <li>Spanish Omelette <span>$16</span></li>
+          <li>Japanese Rice Bowl <span>$16</span></li>
+          <li>Indian Masala Dosa <span>$16</span></li>
+          <li>Mexican Breakfast Burrito <span>$16</span></li>
+        </ul>
+        <div class="international-flavors__img">
+          <img src="Assets/top-view-delicious-croissants.jpg" alt="">
+        </div>
+      </div>
+    </li>
+    <!-- Drinks -->
+    <li>
+      <h2>Drinks</h2>
+      <div class="drinks">
+        <div class="drinks__img">
+          <img src="Assets/freshly-squeezed-juice.jpg" class="" alt="">
+        </div>
+        <ul>
+          <li>Latte <span>$16</span></li>
+          <li>Juices <span>$16</span></li>
+          <li>Espresso <span>$16</span></li>
+          <li>Green Tea <span>$16</span></li>
+          <li>Cappuccino <span>$16</span></li>
+          <li>Mix Berry Smoothie <span>$16</span></li>
+          <li>Coffee <span>$16</span></li>
+          <li>Hot Tea <span>$16</span></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+</div>
+
+    
+<!-- Gallery section -->
+<div id="Gallery" class="gallery-section container">
+  <!-- Headings for the gallery section -->
+  <h2 class="heading-two">Healthy Breakfast Picks</h2>
+  <h1 class="heading-one">Gallery</h1>
+  
+  <!-- Swiper slider for image gallery -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="Assets/scrambled-eggs-plate.jpg" alt="Scrambled Eggs Plate"></div>
+      <div class="swiper-slide"><img src="Assets/sausages-grill.jpg" alt="Sausages on Grill"></div>
+      <div class="swiper-slide"><img src="Assets/club-sandwich-panini.jpg" alt="Club Sandwich Panini"></div>
+      <div class="swiper-slide"><img src="Assets/avocado-open-toast.jpg" alt="Avocado Open Toast"></div>
+      <div class="swiper-slide"><img src="Assets/front-view-delicious-food.jpg" alt="Delicious Food"></div>
+      <div class="swiper-slide"><img src="Assets/yogurt-with-berries.jpg" alt="Yogurt with Berries"></div>
+      <div class="swiper-slide"><img src="Assets/summertime-smoothie.jpg" alt="Summertime Smoothie"></div>
+      <div class="swiper-slide"><img src="Assets/sandwich-with-poached-egg.jpg" alt="Sandwich with Poached Egg"></div>
+      <div class="swiper-slide"><img src="Assets/breakfast-with-fresh-croissants.jpg" alt="Breakfast with Fresh Croissants"></div>
+      <div class="swiper-slide"><img src="Assets/high-angle-breakfast-omelette-pan.jpg" alt="High Angle Breakfast Omelette Pan"></div>
+      <div class="swiper-slide"><img src="Assets/cup-coffee-with-heart-drawn-foam.jpg" alt="Cup of Coffee with Heart Foam"></div>
+      <div class="swiper-slide"><img src="Assets/elegant-minimalistic-rice-bowl.jpg" alt="Elegant Minimalistic Rice Bowl"></div>
+    </div>
+    <!-- Pagination for the swiper slider -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+
+<!-- Contact Us section -->
+<div id="Contact-us" class="Contact-us">
+  <!-- Headings for the Contact Us section -->
+  <div class="Contact-us__headings">
+    <h2 class="heading-two">Contact us</h2>
+    <h1 class="heading-one">Get in Touch</h1>
+    <p class="paragraph-anime">Have questions or want to reserve a table? Reach out through our contact form or drop
+      us an email. We're here to make your dining experience extraordinary!</p>
+  </div>
+  
+  <!-- Contact details and form section -->
+  <div class="contact-us__section container">
+    <!-- Column 1: Contact details -->
+    <div class="contact-us__col-1">
+      <ul>
+        <li>
+          <h5>address</h5>
+          <span>123 Brunch Street,
+            Sunnyville, CA 98765,
+            United States.</span>
+        </li>
+        <li>
+          <h5>Phone Number</h5>
+          <span>+1 (555) 123-4567</span>
+        </li>
+        <li>
+          <h5>Email Address</h5>
+          <span>Contact@brunchify.com</span>
+        </li>
+        <li>
+          <h5>Follow us</h5>
+          <div class="social-media__icons">
+            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Column 2: Contact form -->
+    <div class="contact-us__col-2">
+      <form action="" method="post">
+        <input type="text" name="Name" required id="text" placeholder="Name">
+        <input type="email" name="Email" required id="email" placeholder="Email">
+        <input type="number" pattern="[0-9]*" name="No of people" min="1" max="10" required id="Quantity"
+          placeholder="No.of.people">
+        <textarea name="Message" id="message" placeholder="Message"></textarea>
+        <button type="submit">Book a table</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- Newsletter section -->
+<div class="news-letter">
+  <!-- Headings for the Newsletter section -->
+  <h2 class="heading-two">Stay updated</h2>
+  <h1 class="heading-one">Subscribe Us</h1>
+  <p class="paragraph-anime">Subscribe to our newsletter and never miss <br> an update on the latest trends,
+    exclusive offers, and exciting news!</p>
+  
+  <!-- Newsletter subscription form -->
+  <form class="newsletter">
+    <input type="email" required placeholder="Enter your email" name="Email">
+    <button type="submit">
+      <i class="fa-solid fa-paper-plane"></i>
+    </button>
+  </form>
+  
+  <!-- Social media icons -->
+  <div class="social-media__icons">
+    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+    <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+  </div>
+</div>
+
+
+    
+    <!-- Footer section -->
+<footer>
+      <p>Copyright © 2023. All Rights Reserved By Brunchify</p>
+</footer>
+
+
+</main>
+  
+  <!-- External module script -->
+  <script src="module.js" type="module"></script>
+</body>
+
+</html>
